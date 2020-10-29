@@ -11,7 +11,7 @@ var score = 0;
 
 function preload()
 {
-   polygonImg = loadImage("sprites/polygon.png");
+   polygonImg = loadImage("polygon.png");
    getBackgroundImg();
 }
 
@@ -144,11 +144,11 @@ async function getBackgroundImg()
     
     if(hour>=0600 && hour<=1900)
     {
-        bg = "sprites/bg.png";
+        bg = "bg.png";
     }
     else
     {
-        bg = "sprites/bg2.jpg";
+        bg = "bg2.jpg";
     }
 
     backgroundImg = loadImage(bg);
